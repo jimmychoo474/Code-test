@@ -16,5 +16,5 @@ Then run piechart.php on your selected server. ( piechart.php is the main web ap
 
 ## Example
 ```
-![alt text]https://github.com/jimmychoo474/Code-test/blob/main/piechart.png
+![alt text](https://github.com/jimmychoo474/Code-test/blob/main/piechart.png)
 
