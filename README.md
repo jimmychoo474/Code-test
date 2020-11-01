@@ -1,10 +1,12 @@
 # Code test
 
-Showing daily active cases for each LGA.
+Showing daily active cases for each LGA. 
+
+Web scrapping website using simple_html_dom, as shown in the file.
 
 ## Installation
 
-Download php and sql files.
+Download php and sql files. 
 
 
 
