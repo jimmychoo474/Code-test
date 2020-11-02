@@ -6,6 +6,17 @@
   }
 ?>
 
+
+<?php
+  $con = mysqli_connect("localhost","root","","charts");
+  if($con){
+   
+    
+    $sql = "DELETE FROM `chart` ";
+    $query = mysqli_multi_query($con, $sql);
+  }
+?>
+
 <?php
   require 'simple_html_dom.php';
 
@@ -529,13 +540,3 @@ $con->close();
 </body>
 </html>
 
-
-<?php
-  $con = mysqli_connect("localhost","root","","charts");
-  if($con){
-   
-    
-    $sql = "DELETE FROM `chart` ";
-    $query = mysqli_multi_query($con, $sql);
-  }
-?>
